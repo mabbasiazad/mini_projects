@@ -1,0 +1,16 @@
+{
+    "endpoint_url": "https://api.openai.com/v1/images/generations",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "payload": {
+        "model": "dall-e-3",
+        "prompt": "A cute baby sea otter",
+        "n": 1,
+        "size": "1024x1024",
+        "style": "natural",
+        "quality": "hd"
+    },
+
+     "filename": "sea_otter_image"
+}
