@@ -2,4 +2,4 @@
 /miniproj
 **/*.env
 .env
-DALLE_api_call/image_data_with_config.pkl
+*.pkl
