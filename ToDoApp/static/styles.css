@@ -1,0 +1,25 @@
+/* Basic styling for the body text and layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    color: #333;
+}
+
+/* Basic styling for form input elements */
+input, select, button {
+    margin: 3px 0;
+    padding: 5px;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3;
+}
