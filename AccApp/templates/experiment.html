@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment Filter</title>
+</head>
+<body>
+    <h1>Filter Experiments</h1>
+
+    <form method="GET" action="{{ url_for('build.get_results') }}">
+        
+        <div class="form-group">
+            <label for="metal">Metal (Integer):</label>
+            <input type="number" name="metal" id="metal" placeholder="Enter metal">
+        </div>
+
+        <div class="form-group">
+            <label for="ligand">Ligand (Integer):</label>
+            <input type="number" name="ligand" id="ligand" placeholder="Enter ligand">
+        </div>
+
+        <div class="form-group">
+            <label for="kind">Kind (e.g., 'cv', 'cdpv'):</label>
+            <input type="text" name="kind" id="kind" placeholder="Enter kind">
+        </div>
+
+        <div class="form-group">
+            <label for="potentiostat">Potentiostat ID (Integer):</label>
+            <input type="number" name="potentiostat" id="potentiostat" placeholder="Enter potentiostat ID" min="1">
+        </div>
+
+        <button type="submit">Apply Filters</button>
+    </form>
+</body>
+</html>
